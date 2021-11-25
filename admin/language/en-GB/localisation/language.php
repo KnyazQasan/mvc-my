@@ -1,0 +1,41 @@
+<?php
+/**
+ * @package     Arastta eCommerce
+ * @copyright   2015-2018 Arastta Association. All rights reserved.
+ * @copyright   See CREDITS.txt for credits and other copyright notices.
+ * @license     GNU GPL version 3; see LICENSE.txt
+ * @link        https://arastta.org
+ */
+
+// Heading
+$_['heading_title']     = 'Languages';
+
+// Text
+$_['text_upload']       = 'Upload Translation';
+
+// Entry
+$_['entry_name']        = 'Name';
+$_['entry_code']        = 'Code';
+$_['entry_image']       = 'Image';
+$_['entry_directory']   = 'Directory';
+
+// Help
+$_['help_code']         = 'Example: en. Do not change if this is your default language.';
+$_['help_image']        = 'Example: gb.png';
+$_['help_directory']    = 'Name of the language directory (case-sensitive)';
+$_['help_status']       = 'Select whether to enable this language or not. It will also affect the language dropdown in front-end.';
+
+// Error
+$_['error_name']        = 'Language Name must be between 3 and 32 characters!';
+$_['error_code']        = 'Language Code must at least 2 characters!';
+$_['error_image']       = 'Image Filename must be between 3 and 64 characters!';
+$_['error_directory']   = 'Directory required!';
+$_['error_default']     = 'Warning: This language cannot be deleted as it is currently assigned as the default store language!';
+$_['error_admin']       = 'Warning: This Language cannot be deleted as it is currently assigned as the administration language!';
+$_['error_store']       = 'Warning: This language cannot be deleted as it is currently assigned to %s stores!';
+$_['error_order']       = 'Warning: This language cannot be deleted as it is currently assigned to %s orders!';
+
+$_['error_both_status']     = 'Warning: This language cannot be changed status as it is currently assigned as the administration and the default store language!';
+$_['error_default_status']  = 'Warning: This language cannot be changed status as it is currently assigned as the default store language!';
+$_['error_store_status']    = 'Warning: This language cannot be changed status as it is currently assigned to %s stores!';
+$_['error_admin_status']    = 'Warning: This language cannot be changed status as it is currently assigned as the administration!';

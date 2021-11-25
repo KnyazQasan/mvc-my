@@ -1,0 +1,35 @@
+{
+    "name": "qasan/qasan",
+    "type": "project",
+    "description": "Knyaz eCommerce",
+    "keywords": ["Knyaz", "ecommerce"],
+    "homepage": "",
+    "license": "GPL-3.0+",
+    "config": {
+      "vendor-dir": "system/vendor"
+    },
+    "require": {
+        "php": ">=5.3.10",
+        "arastta/form": "1.*",
+        "enygma/gauth": "0.4.*",
+        "enygma/yubikey": "3.2.*",
+        "ezyang/htmlpurifier": "4.9.*",
+        "erusev/parsedown": "1.6.*",
+        "erusev/parsedown-extra": "0.7.*",
+        "icanboogie/inflector": "1.4.*",
+        "gregwar/captcha": "1.*",
+        "joomla/cache": "1.*@dev",
+        "joomla/profiler": "1.*@dev",
+        "joomla/uri": "1.*@dev",
+        "kartik-v/bootstrap-fileinput": "4.4.*",
+        "nategood/httpful": "0.2.*",
+        "psr/log": "1.0.*",
+        "symfony/console": "2.8.*",
+        "symfony/debug": "2.8.*",
+        "symfony/dom-crawler": "2.8.*",
+        "symfony/filesystem": "2.8.*",
+        "symfony/finder": "2.8.*",
+        "swiftmailer/swiftmailer": "5.4.*",
+        "volnix/csrf": "1.2.*"
+    }
+}

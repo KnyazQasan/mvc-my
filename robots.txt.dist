@@ -1,0 +1,20 @@
+
+# Sitemap: http://www.example.com/index.php?route=feed/google_sitemap
+# Sitemap: http://www.example.com/index.php?route=feed/google_sitemap/products
+# Sitemap: http://www.example.com/index.php?route=feed/google_sitemap/categories
+# Sitemap: http://www.example.com/index.php?route=feed/google_sitemap/manufacturers
+
+User-agent: *
+Disallow: /admin/
+Disallow: /catalog/
+Allow: /catalog/view/javascript/
+Allow: /catalog/view/theme/default/image/
+Allow: /catalog/view/theme/default/javascript/
+Allow: /catalog/view/theme/default/stylesheet/
+Allow: /catalog/view/theme/second/image/
+Allow: /catalog/view/theme/second/javascript/
+Allow: /catalog/view/theme/second/stylesheet/
+Disallow: /download/
+Disallow: /system/
+Disallow: /upload/
+Disallow: /vqmod/
